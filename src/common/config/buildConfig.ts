@@ -32,7 +32,7 @@ const buildConfig: BuildConfig = {
     helpLink: DEFAULT_HELP_LINK,
     academyLink: DEFAULT_ACADEMY_LINK,
     upgradeLink: DEFAULT_UPGRADE_LINK,
-    enableServerManagement: true,
+    enableServerManagement: false,
     enableUpdateNotifications: true,
     updateNotificationURL: 'https://releases.mattermost.com/desktop',
     macAppStoreUpdateURL: 'macappstore://apps.apple.com/us/app/mattermost-desktop/id1614666244',
