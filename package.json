@@ -1,13 +1,13 @@
 {
-  "name": "mattermost-desktop",
-  "productName": "Mattermost",
+  "name": "tinconnect-desktop",
+  "productName": "TIN Connect",
   "version": "6.3.0-develop.1",
-  "description": "Mattermost",
+  "description": "The Intelligent Network Communications Platform",
   "main": "dist/index.js",
-  "author": "Mattermost, Inc. <feedback@mattermost.com>",
+  "author": "The Intelligent Network <noreply@tinconnect.com>",
   "license": "Apache-2.0",
-  "desktopName": "Mattermost.Desktop",
-  "homepage": "https://mattermost.com",
+  "desktopName": "TINConnect.Desktop",
+  "homepage": "https://tinconnect.com",
   "engines": {
     "node": ">=18.0.0"
   },

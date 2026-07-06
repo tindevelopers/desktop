@@ -19,7 +19,7 @@ function getMacVersions() {
 }
 
 const config = {
-    appId: 'Mattermost.Desktop',
+    appId: 'com.tinconnect.desktop',
     artifactName: '${version}/${name}-${version}-${os}-${arch}.${ext}',
     directories: {
         buildResources: 'src/assets',
