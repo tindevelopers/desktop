@@ -28,6 +28,7 @@ jobs:
 
       - name: release/notify-channel
         uses: mattermost/action-mattermost-notify@ae31bb6f9e26a54336e79696f108a2c91cf55b4e
+        continue-on-error: true
         with:
           MATTERMOST_WEBHOOK_URL: ${{ secrets.MM_DESKTOP_RELEASE_WEBHOOK_URL }}
           MATTERMOST_USERNAME: MattermostRelease
@@ -248,6 +249,7 @@ jobs:
 
       - name: release/notify-channel
         uses: mattermost/action-mattermost-notify@ae31bb6f9e26a54336e79696f108a2c91cf55b4e
+        continue-on-error: true
         with:
           MATTERMOST_WEBHOOK_URL: ${{ secrets.MM_DESKTOP_RELEASE_WEBHOOK_URL }}
           MATTERMOST_USERNAME: MattermostRelease
