@@ -26,7 +26,7 @@ const buildConfig: BuildConfig = {
     defaultServers: [
         {
             name: 'The Intelligent Network',
-            url: 'https://www.tinconnect.com',
+            url: 'https://mattermost.tinconnect.com',
         },
     ],
     helpLink: DEFAULT_HELP_LINK,
